@@ -1,5 +1,6 @@
 package com.gandhi.vibe.entity;
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -19,13 +20,16 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
+@Schema(description = "User entity representing a user in the system")
 public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Schema(description = "The primary key identifying the user", example = "1")
     private Long id;
 
     @Column(nullable = false, unique = true)
+    @Schema(description = "The unique username of the user", example = "johndoe")
     private String username;
 
 }
