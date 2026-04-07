@@ -19,6 +19,20 @@ Dengan *Vibe Coding*, saya cukup memulai dengan sebuah "vibe" atau *prompt* yang
 2. Menyelesaikan masalah lingkungan (seperti ketidakcocokan versi JDK) secara otomatis.
 3. Melengkapi fitur-fitur "premium" seperti Swagger UI dengan contoh request/response yang nyata.
 
+## Daftar Teknologi & Fitur (Tech Stack)
+
+Proyek ini menggunakan kombinasi teknologi modern untuk memastikan performa dan kemudahan pemeliharaan:
+
+- **Java 21**: Menggunakan versi Java terbaru untuk fitur bahasa dan performa optimal.
+- **Spring Boot 3.4**: Framework utama untuk membangun aplikasi Java berbasis microservices.
+- **PostgreSQL**: Database relasional yang kuat dan handal.
+- **Liquibase**: Alat manajemen perubahan skema database (database migration) yang terkontrol.
+- **Spring Data JPA**: Abstraksi data layer untuk memudahkan interaksi dengan database.
+- **OpenFeign**: Deklaratif REST client untuk komunikasi antar layanan (external API).
+- **SpringDoc OpenAPI (Swagger UI)**: Dokumentasi API interaktif yang otomatis dibuat.
+- **Lombok**: Mengurangi boilerplate code seperti getter, setter, dan constructor.
+- **Validation**: Validasi data input menggunakan standar Bean Validation (JSR-303).
+
 ## Mengapa Ini Membantu?
 
 Sebagai pengembang berpengalaman, saya merasa pendekatan ini sangat membantu karena:
